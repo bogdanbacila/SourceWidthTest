@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 55.0, 231.0, 197.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 800.0, 214.0, 165.0, 24.0 ],
+					"text" : "Space - Play/Pause"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -426,7 +440,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"arrow_orientation" : 2,
-					"bgcolor" : [ 0, 1, 0, 0.5 ],
+					"bgcolor" : [ 0, 1, 0, 0.0 ],
 					"bordercolor" : [ 0.0, 0.533333, 0.168627, 1.0 ],
 					"id" : "obj-127",
 					"maxclass" : "panel",
@@ -706,7 +720,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"arrow_orientation" : 3,
-					"bgcolor" : [ 0, 1, 0, 0.0 ],
+					"bgcolor" : [ 0, 1, 0, 0.5 ],
 					"bordercolor" : [ 0.0, 0.533333, 0.168627, 1.0 ],
 					"id" : "obj-111",
 					"maxclass" : "panel",
