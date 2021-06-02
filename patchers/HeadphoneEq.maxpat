@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 2,
+			"minor" : 1,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-11",
@@ -136,11 +137,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.5, 368.5, 239.0, 22.0 ]
+					"patching_rect" : [ 179.5, 368.5, 239.0, 49.0 ],
+					"text" : "prefix \"Macintosh HD:/Users/bogdan/Google Drive/PhD/Year 2/SourceWidthTest/headphone_eq/\""
 				}
 
 			}
@@ -184,16 +187,16 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-1",
-					"items" : "<empty>",
+					"items" : "heq702.wav",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 633.0, 382.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/bogdan/Google Drive/PhD/Year 2/ObjectiveGradingTest/headphone_eq/",
+					"prefix" : "~/Google Drive/PhD/Year 2/SourceWidthTest/headphone_eq/",
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 195.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 196.0, 22.0 ],
 					"style" : "default"
 				}
 
@@ -445,7 +448,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "lookAboveThisDir.maxpat",
-				"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/patchers",
+				"bootpath" : "~/Google Drive/PhD/Year 2/SourceWidthTest/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -1,4 +1,4 @@
-# Subjective grading test for spatial impression attributes in a concert hall
+# Graphical elicitation test for the source-related width in a concert hall
 
 ## Prerequisites:
 
@@ -23,7 +23,7 @@ For the binauralisation functions to work, you will need to place some extra DLL
 
 ## Opening the test
 
-To launch the listening test please locate the "AttributeGradingTest.maxproj" and open it using Max. **Please note that the test will take a few moments to load, sometimes even up to more than a minute.**
+To launch the listening test please locate the "SourceWidthTest.maxproj" and open it using Max. **Please note that the test will take a few moments to load, sometimes even up to more than a minute.**
 
 
 ![project_location](docs/project_location.png)
@@ -66,50 +66,15 @@ To launch the listening test please locate the "AttributeGradingTest.maxproj" an
 
 ## Running the listening test
 
+### Max patch
+
 1. Make sure you have selected your audio interface as an output device and set the sampling rate to 48kHz from the "Options -> Audio Status" menu.
 2. Make sure the "Audio On/Off" button is active.
-3. To run a listening test you need to first drag and drop a test configuration file from the "Test_Configuration" folder, into the box located on the left of the screen.
+3. Type your surname in the name box. Please don't include any special characters in this field:
+4. Press the "Randomize" button. This will randomize the listening positions in the test interface.
 
-![config_file](docs/config_file.png)
+### Scribble board
 
-4. Type your surname in the name box. Please don't include any special characters in this field (i.e. space, return):
-5. To start a short practice run press the button labeled  **"Practice"**. A red border will indicate that practice mode is active.
-
-![practice](docs/practice.png)
-
-6. Press **"Reset and Randomize"**
-7. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
-8. When you are finished, don't forget to press the **"Stop"** button. This will save your results in the "Test_Ouptut" folder.
-9. To start the main test session deactivate the **"Practice** button and repeat steps 6-8 to complete the test session.
-
-## Test structure
-
-- The test is split into 7 sessions, each with a corresponding configuration file beginning with "configFile_".
-- For each session, please follow previous steps 3-9 until all sessions are finished.
-
-- You will be presented with a number of test trials, comprised of two listening positions, "A" and "B". The goal of the test is to compare the two stimuli and indicate which one is perceptually greater (wider, further, louder, brighter depending on the assessed attribute)
-- Please listen carefully to both stimuli, by clicking on them or using the keyboard shortcuts (a-for stimulus A, s-for stimulus B). (space bar - Play/Pause)
-- To compare the pair of stimuli please drag the slider to the side which corresponds to the stimulus which has a greater magnitude of the assessed attribute (e.g. when comparing A and B, if A has a perceptually larger LEV please drag the slider towards A and vice-versa).
-- The slider **can not** be left in the centre position. A red border will indicate that it has to be changed, unlocking the next trial.
-
--  It is important when comparing the stimuli to focus **only** on the assessed attribute. Please disregard changes in head orientation or position unless the attribute is assessing them.
-- Please don't forget to close your eyes whilst listening to the stimuli.
-
-## Test attributes and definitions
-
-- There are 7 attributes to be assessed:
-
-  * PSL (Perceived Source Loudness):
-    - The perceived loudness of just the sound source. (Quiet - Loud)
-  * LEV (Listener Envelopment):
-    - The feeling of being surrounded by the reverberant field. (Less - More)
-  * ARW (Apparent Reverb Width):
-    - The perceived impression of width given by the late reverberant field. (Narrow-Wide)
-  * ASD (Apparent Source Distance):
-    - The perceived distance between the listener and the sound source. (Close - Far)
-  * PRL (Perceived Reverb Loudness):
-    - The perceived loudness of just the reverberant field . (Quiet-Loud)
-  * Reverb Brightness:
-    - The timbral characteristics of reverberation depending on the level of high frequencies.	(Bright-Dull)
-  * Echo Brightness:
-    - The timbral characteristics of echoes depending on the level of high frequencies. (Bright-Dull)
+1. You will receive an individual link to access a drawing board.
+2. You can change the drawing sheet by clicking the image icon in the top-right corner of the board. Please not that there is a separate sheet for every Position/Orientation combination. (e.g. Front_A, Side_B, etc.).
+3. Please take a moment to familiarise yourself with the drawing interface. (select different colours, pen dimensions, fill tool, erasers, etc.)
