@@ -66,15 +66,10 @@ To launch the listening test please locate the "SourceWidthTest.maxproj" and ope
 
 ## Running the listening test
 
-### Max patch
 
 1. Make sure you have selected your audio interface as an output device and set the sampling rate to 48kHz from the "Options -> Audio Status" menu.
 2. Make sure the "Audio On/Off" button is active.
 3. Type your surname in the name box. Please don't include any special characters in this field:
 4. Press the "Randomize" button. This will randomize the listening positions in the test interface.
 
-### Scribble board
-
-1. You will receive an individual link to access a drawing board.
-2. You can change the drawing sheet by clicking the image icon in the top-right corner of the board. Please not that there is a separate sheet for every Position/Orientation combination. (e.g. Front_A, Side_B, etc.).
-3. Please take a moment to familiarise yourself with the drawing interface. (select different colours, pen dimensions, fill tool, erasers, etc.)
+You can now click on each listening position labelled with "A","B","C" or "D" in order to listen to the specific stimulus. Alternatively, you can use the keyboard arrows to navigate through the positions. 
