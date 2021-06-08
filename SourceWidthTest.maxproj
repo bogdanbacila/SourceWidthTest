@@ -2,7 +2,7 @@
 	"name" : "SourceWidthTest",
 	"version" : 1,
 	"creationdate" : 3695215038,
-	"modificationdate" : 3704279856,
+	"modificationdate" : 3705992938,
 	"viewrect" : [ 1037.0, 165.0, 411.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -90,6 +90,16 @@
 			}
 ,
 			"posArrows_Side.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Google Drive/PhD/Year 2/SourceWidthTest/media",
+					"projectrelativepath" : "./media"
+				}
+
+			}
+,
+			"speaker_Icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
